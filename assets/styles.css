@@ -1,0 +1,79 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  /* list-style: none; */
+}
+
+/* root variable */
+:root {
+  --color-primary: #0059b3;
+  --color-secondary: #66b3ff;
+  --color-buttons: #999999;
+  --color-underscore: #ff80ff;
+  --color-border: #a6a6a6;
+  --color-background1: #4da6ff;
+  --color-background2: #df80ff;
+  --color-background3: #aaff80;
+  --color-background4: #ffaa80;
+}
+@media screen and (min-width: 1024px) {
+  body {
+    font-size: 1.8rem;
+  }
+  h1 {
+    font-size: 5rem;
+  }
+  h2 {
+    font-size: 3.5rem;
+    /* margin-bottom: 3.5rem; */
+  }
+}
+@media screen and (max-width: 1024px) {
+  body {
+    font-size: 1.6rem;
+    /* text-align: center; */
+  }
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navAvatar {
+  width: 8%;
+}
+
+.hero__section {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+}
+.hero--border {
+  border: 0.5px solid #d9d9d9;
+  margin: 5rem 1rem;
+  /* padding: 2rem; */
+  border-radius: 10px;
+}
+.left__border {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+}
+.border--titles {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
