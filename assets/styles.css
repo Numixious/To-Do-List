@@ -40,6 +40,7 @@
 html {
   font-size: 62.5%;
 }
+
 body {
   display: flex;
   justify-content: center;
@@ -50,9 +51,11 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-top: 2rem;
 }
 .navAvatar {
-  width: 8%;
+  width: 20%;
+  cursor: pointer;
 }
 
 .hero__section {
@@ -76,4 +79,97 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
+  padding: 2rem;
+}
+
+.border--titles .tagRight {
+  padding-left: 10rem;
+}
+.border--titles i {
+  padding-top: 0.5rem;
+  padding-left: 20rem;
+  cursor: pointer;
+  display: block;
+}
+.leftborder--titles {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+  padding-left: 1rem;
+  cursor: pointer;
+}
+.leftborder--titles--elem {
+  padding-left: 1rem;
+  display: inline;
+}
+.leftborder--titles--elem :hover {
+  text-decoration-line: var(--color-background2);
+}
+.category--boxes {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  width: 100%;
+  padding-left: 2rem;
+  margin-top: 2rem;
+  margin-right: 2rem;
+  color: black;
+}
+.category--boxes--details {
+  background-color: var(--color-underscore);
+  /* border: 1px solid var(--color-background4); */
+  border-radius: 10px;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 0 2rem;
+}
+.category--boxes--details1 {
+  background-color: var(--color-primary);
+  /* border: 1px solid var(--color-primary); */
+  border-radius: 10px;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 0 2rem;
+}
+.category--boxes--details2 {
+  background-color: var(--color-background3);
+  /* border: 1px solid var(--color-background3); */
+  border-radius: 10px;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 0 2rem;
+}
+.category--boxes--details3 {
+  background-color: var(--color-border);
+  /* border: 1px solid var(--color-background3); */
+  border-radius: 10px;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 0 2rem;
+}
+.middle__date {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+  padding-left: 2rem;
+  cursor: pointer;
 }
